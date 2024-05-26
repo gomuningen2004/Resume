@@ -13,12 +13,11 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    padding-bottom: 1em;
+    padding: 1em auto;
 }
 
 h3 {
     font-size: 1em;
-    padding-bottom: 1em;
 }
 
 main { 
@@ -26,13 +25,14 @@ main {
     grid-template-columns: 40% 60%;
     margin-top: 3em;
 }
+
 header {
     text-align: center;
     margin: auto 2em;
 }
 
 section {
-    margin: auto 1em 4em 2em;
+    margin: auto 2em 2em 2em;
 }
 
 i {
@@ -52,7 +52,9 @@ hr {
 h1, h2, h3 {
     font-weight: 100;
     margin-bottom: 0;
+    margin-top: 0;
 }
+
 #mainLeft {
     border-right: 1px solid lightgray;
 }
